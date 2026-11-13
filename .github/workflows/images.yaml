@@ -47,6 +47,7 @@ jobs:
         - uBootRockPiS
         - uBootRockPiE
         - uBootRockPiEV3
+        - uBootNanoPiR76S
     runs-on: ubuntu-24.04-arm
     steps:
     - name: Free disk space
@@ -155,6 +156,7 @@ jobs:
         - RockPiS
         - RockPiE
         - RockPiEV3
+        - NanoPi-R76S
     runs-on: ubuntu-24.04-arm
     steps:
     - name: Free disk space
