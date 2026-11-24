@@ -218,6 +218,11 @@
             kernel = kernel.linux_latest_rockchip_stable;
             extraModules = [ noZFS ];
           };
+          "NanoPi-R3S" = {
+            uBoot = uBoot.uBootNanoPiR3S;
+            kernel = kernel.linux_latest_rockchip_stable;
+            extraModules = [ noZFS ];
+          };
           "Sige7" = {
             uBoot = uBoot.uBootSige7;
             kernel = kernel.linux_latest_rockchip_stable;
@@ -311,6 +316,7 @@
 
           uBootNanoPCT6 = uBoot.uBootNanoPCT6;
           uBootNanoPiR76S = uBoot.uBootNanoPiR76S;
+          uBootNanoPiR3S = uBoot.uBootNanoPiR3S;
 
           uBootSige7 = uBoot.uBootSige7;
 

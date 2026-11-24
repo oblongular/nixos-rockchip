@@ -100,6 +100,7 @@ Applies device tree overlay to fix gigabit Ethernet RX on the ROCK Pi E
 | Radxa Rock4 C+       | RadxaRock4CPlus | Tested & Works   |
 | Armsom Sige7         | Sige7           | Tested & Works   |
 | [FriendlyElec NanoPi R76S][] | NanoPi-R76S | Tested & Works |
+| [FriendlyElec NanoPi R3S][] | NanoPi-R3S | Tested & Works |
 
 [Rock64]: https://wiki.nixos.org/wiki/NixOS_on_ARM/PINE64_ROCK64
 [RockPro64]: https://wiki.nixos.org/wiki/NixOS_on_ARM/PINE64_ROCKPro64
@@ -110,3 +111,4 @@ Applies device tree overlay to fix gigabit Ethernet RX on the ROCK Pi E
 [Radxa ROCK Pi S]: https://radxa.com/products/rockpi/pis/
 [Radxa ROCK Pi E]: https://radxa.com/products/rockpi/pie/
 [FriendlyElec NanoPi R76S]: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R76S
+[FriendlyElec NanoPi R3S]: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R3S

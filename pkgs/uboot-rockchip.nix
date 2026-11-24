@@ -287,5 +287,11 @@ in
   uBootRadxaRock4CPlus = buildRK3399UBoot "rock-4c-plus-rk3399_defconfig";
   uBootNanoPCT6 = buildRK3588UBoot "nanopc-t6-rk3588_defconfig";
   uBootNanoPiR76S = buildRK3576UBoot "nanopi-r76s-rk3576_defconfig";
+  uBootNanoPiR3S = buildPatchedUBoot {
+    defconfig = "nanopi-r3s-rk3566_defconfig";
+    BL31 = pkgs.rkbin.BL31_RK3568;
+    ROCKCHIP_TPL = pkgs.rkbin.TPL_RK3566;
+    spi = false;
+  };
   uBootSige7 = buildRK3588UBoot "sige7-rk3588_defconfig";
 }
